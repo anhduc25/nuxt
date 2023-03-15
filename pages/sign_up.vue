@@ -2,7 +2,7 @@
   <v-container class="  set-max-width">
     <v-card md="6" class="mx-auto">
       <v-card-title>
-        Sign In Form
+        Sign Up Form
       </v-card-title>
       <v-card-text>
         <v-form>
@@ -17,8 +17,8 @@
       <v-card-actions>
         <div>
           <span>If you don't have account, </span>
-          <nuxt-link to="/sign_up">
-            sign up
+          <nuxt-link to="/">
+            sign in
           </nuxt-link>
         </div>
         <v-spacer />
@@ -36,7 +36,7 @@
           <v-divider />
 
           <v-card-text>
-            I'm a thing. But, like most politicians, he promised more than he could deliver. You won't have time for sleeping, soldier, not with all the bed making you'll be doing. Then we'll go with that data file! Hey, you add a one and two zeros to that or we walk! You're going to do his laundry? I've got to find a way to escape.
+            {{ $route.path }}
           </v-card-text>
         </div>
       </v-expand-transition>
